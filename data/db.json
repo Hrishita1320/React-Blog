@@ -1,0 +1,31 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "1st Post",
+      "body": "This is my 1st post which is more than 25 characters"
+    },
+    {
+      "id": 2,
+      "title": "2nd Post",
+      "body": "This is my 2nd post"
+    },
+    {
+      "id": 3,
+      "title": "3rd Post",
+      "body": "This is my 3rd post"
+    },
+    {
+      "id": 4,
+      "title": "4th Post",
+      "datetime": "June 30, 2022 6:02:01 PM",
+      "body": "This is my 4th post which is edited"
+    },
+    {
+      "id": 5,
+      "title": "New Post",
+      "datetime": "July 01, 2022 11:03:05 AM",
+      "body": "Added new post for testing. "
+    }
+  ]
+}

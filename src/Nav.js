@@ -12,11 +12,11 @@ const Nav = () => {
   useEffect(() => {
     const filteredResults = posts.filter(
       (post) =>
-        post.body.toLowerCase().includes(search.toLowerCase()) ||
-        post.title.toLowerCase().includes(search.toLowerCase())
+        ((post.body).toLowerCase()).includes(search.toLowerCase()) ||
+        ((post.title).toLowerCase()).includes(search.toLowerCase())
     );
     setSearchResults(filteredResults.reverse());
-  }, [posts, search,setSearchResults]);
+  }, [posts, search, setSearchResults]);
   
   return (
     <nav className="Nav">

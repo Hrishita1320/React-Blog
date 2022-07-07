@@ -3,17 +3,17 @@ import { useStoreState, useStoreActions } from 'easy-peasy';
 
 
 const PostPage = () => {
-  const { id } =useParams();
-  const history = useNavigate();
-  const deletePost = useStoreActions ((actions)=> actions.deletePost);
-  const getPostById = useStoreState ((state)=> state.getPostById);
-  const post=getPostById (id);
+  const { id } = useParams();
+    const history = useNavigate();
+    const deletePost = useStoreActions((actions) => actions.deletePost);
+    const getPostById = useStoreState((state) => state.getPostById);
+    const post = getPostById(id);
 
-  const handleDelete =  async (id) => {
+    const handleDelete = (id) => {
       deletePost(id);
-      history("/");
-    
-  };
+      history.push('/');
+  }
+
   
   return (
     <main className="PostPage">

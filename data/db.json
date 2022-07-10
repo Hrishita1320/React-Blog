@@ -22,10 +22,10 @@
       "body": "This is my 4th post which is edited"
     },
     {
-      "id": 6,
-      "title": "Edit New post for checking",
-      "datetime": "July 06, 2022 4:28:09 PM",
-      "body": "for configuration"
+      "id": 5,
+      "title": "5th post",
+      "datetime": "July 10, 2022 11:54:18 AM",
+      "body": "checking axios\n"
     }
   ]
 }
